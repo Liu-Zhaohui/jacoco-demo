@@ -15,4 +15,9 @@ public class HelloController {
         return "byebye!";
     }
 
+    @RequestMapping("v1")
+    public String v1() {
+        return "version 1!";
+    }
+
 }
